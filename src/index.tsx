@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { hydrate } from 'react-dom';
-import { App } from './App/App';
+import { render } from 'react-dom';
+import { PageContainer } from './Feature/container/PageContainer';
 
-hydrate(
-    <App />,
+render(
+    <PageContainer />,
     document.getElementById('app')
 );
